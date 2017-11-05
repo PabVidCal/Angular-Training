@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import { Product } from './product.model';
 
 @Component({
-  selector: 'ivnentory-app-root',
+  selector: 'inventory-app-root',
   templateUrl: './app.component.html'
 })
 export class AppComponent {
@@ -20,7 +20,7 @@ export class AppComponent {
       new Product(
         'NEATOJACKET',
         'Blue Jacket',
-        '/assets/images/products/blue-hat.jpg',
+        '/assets/images/products/blue-jacket.jpg',
         ['Women', 'Apparel', 'Jackets & Vests'],
         238.99),
       new Product(
